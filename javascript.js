@@ -28,7 +28,7 @@ function getHumanChoice(){
     while(humanChoice===""){
             humanChoice = prompt("Enter your choice: rock, paper or scissors.").toLowerCase();
             if(humanChoice!=="rock" && humanChoice!=="paper" && humanChoice!=="scissors"){
-                console.error("please choose one of the given options");
+                alert("please choose one of the given options");
                 humanChoice = "";
             }
     }    
